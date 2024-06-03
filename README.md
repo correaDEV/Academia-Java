@@ -15,4 +15,14 @@ Bem-vindo ao repositório de exercícios finalizados da Academia de Java! Este r
 │   ├── Turma.java
 │   └── Main.java
 
+├── Exercicio3_SistemaDeCompras
+│   ├── Produto.java
+│   ├── CarrinhoDeCompras.java
+│   └── Main.java
+
+├── Exercicio4_HealthCare
+│   ├── Paciente.java
+│   └── Principal.java
+
+
 
