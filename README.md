@@ -10,6 +10,9 @@ Bem-vindo ao repositório de exercícios finalizados da Academia de Java! Este r
 │   ├── Biblioteca.java
 │   └── Main.java
 
-├── Exercicio2_...
-│   ├── ...
+├── Exercicio2_SistemaEscolar
+│   ├── Aluno.java
+│   ├── Turma.java
+│   └── Main.java
+
 
