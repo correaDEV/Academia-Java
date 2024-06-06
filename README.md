@@ -24,5 +24,12 @@ Bem-vindo ao repositório de exercícios finalizados da Academia de Java! Este r
 │   ├── Paciente.java
 │   └── Principal.java
 
+├── Exercicio5_CalculoIRPF
+│   ├── Pessoa.java
+│   ├── FaixaImpostoDeRenda.java
+│   ├── ImpostoDeRenda.java
+│   └── Main.java
+
+
 
 
