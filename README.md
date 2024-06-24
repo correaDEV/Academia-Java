@@ -23,5 +23,4 @@
             <pre><code>cd academia-de-java/lucas   # Para acessar as aulas de Java</code></pre>
             <pre><code>cd academia-de-java/postgresql/fabricio   # Para acessar as aulas de PostgreSQL</code></pre>
         </li>
-        <li>
-           
+        
