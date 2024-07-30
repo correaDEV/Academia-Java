@@ -5,7 +5,7 @@
  
    <h2>Conteúdo do Repositório</h2>
 
-   <h3>Aulas - Java (Lucas)</h3>
+   <h3>Aulas - Java (Lucas)</h3> 
     <p>A pasta <code>lucas</code> contém todas as aulas relacionadas ao desenvolvimento em Java, incluindo exemplos práticos e exercícios para praticar suas habilidades.</p>
 
    <h3>Aulas - PostgreSQL (Fabrício)</h3>
