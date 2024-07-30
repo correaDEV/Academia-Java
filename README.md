@@ -3,7 +3,7 @@
 
    <p>Este repositório contém uma coleção de aulas e exercícios finalizados da Academia de Java. Ele está organizado para facilitar o acesso e o estudo de conteúdos relacionados ao desenvolvimento em Java e ao uso do banco de dados PostgreSQL.</p> 
  
-   <h2>Conteúdo do Repositório</h2>
+   <h2>Conteúdo do Repositório</h2> 
 
    <h3>Aulas - Java (Lucas)</h3> 
     <p>A pasta <code>lucas</code> contém todas as aulas relacionadas ao desenvolvimento em Java, incluindo exemplos práticos e exercícios para praticar suas habilidades.</p>
