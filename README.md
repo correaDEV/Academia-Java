@@ -1,7 +1,7 @@
            
    <h1>Bem-vindo ao Repositório de Aulas e Exercícios da Academia de Java!</h1>
 
-   <p>Este repositório contém uma coleção de aulas e exercícios finalizados da Academia de Java. Ele está organizado para facilitar o acesso e o estudo de conteúdos relacionados ao desenvolvimento em Java e ao uso do banco de dados PostgreSQL.</p>   
+   <p>Este repositório contém uma coleção de aulas e exercícios finalizados da Academia de Java. Ele está organizado para facilitar o acesso e o estudo de conteúdos relacionados ao desenvolvimento em Java e ao uso do banco de dados PostgreSQL.</p>    
   
    <h2>Conteúdo do Repositório</h2> 
  
