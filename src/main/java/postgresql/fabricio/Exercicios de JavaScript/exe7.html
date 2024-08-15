@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 7</title>
+</head>
+<body>
+    <p id="text">Este é um parágrafo de exemplo.</p>
+    <button onclick="changeFontSize('increase')">Aumentar Fonte</button>
+    <button onclick="changeFontSize('decrease')">Diminuir Fonte</button>
+
+    <script>
+        function changeFontSize(action) {
+            var text = document.getElementById("text");
+            var style = window.getComputedStyle(text, null).getPropertyValue('font-size');
+            var currentSize = parseFloat(style);
+
+            if (action === 'increase') {
+                text.style.fontSize = (currentSize + 2) + 'px';
+            } else if (action === 'decrease') {
+                text.style.fontSize = (currentSize - 2) + 'px';
+            }
+        }
+    </script>
+</body>
+</html>

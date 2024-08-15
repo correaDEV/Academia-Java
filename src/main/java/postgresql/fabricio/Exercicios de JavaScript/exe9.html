@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 9</title>
+</head>
+<body>
+    <form onsubmit="return validateForm()">
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login"><br><br>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="confirmPassword">Confirmar Senha:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword"><br><br>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <script>
+        function validateForm() {
+            var login = document.getElementById("login").value;
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("confirmPassword").value;
+
+            if (!login || !password || !confirmPassword) {
+                alert("Todos os campos devem ser preenchidos.");
+                return false;
+            }
+
+            if (password !== confirmPassword) {
+                alert("As senhas não coincidem.");
+                return false;
+            }
+
+            if (password.length < 6 || password.length > 10) {
+                alert("A senha deve ter entre 6 e 10 caracteres.");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 4</title>
+</head>
+<body>
+    <p id="text">Este é um parágrafo de exemplo.</p>
+    <button onclick="toggleText()">Mostrar/Ocultar</button>
+
+    <script>
+        function toggleText() {
+            var text = document.getElementById("text");
+            if (text.style.display === "none") {
+                text.style.display = "block";
+            } else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

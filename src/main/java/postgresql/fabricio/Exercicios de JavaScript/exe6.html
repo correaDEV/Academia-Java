@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 5</title>
+</head>
+<body>
+    <form>
+        <input type="checkbox" name="item" onclick="checkCheckboxes()"> Item 1<br>
+        <input type="checkbox" name="item" onclick="checkCheckboxes()"> Item 2<br>
+        <input type="checkbox" name="item" onclick="checkCheckboxes()"> Item 3<br>
+        <input type="checkbox" name="item" onclick="checkCheckboxes()"> Item 4<br>
+        <button id="submitButton" disabled>Enviar</button>
+    </form>
+
+    <script>
+        function checkCheckboxes() {
+            var checkboxes = document.querySelectorAll('input[name="item"]:checked');
+            var button = document.getElementById("submitButton");
+            if (checkboxes.length >= 2) {
+                button.disabled = false;
+            } else {
+                button.disabled = true;
+            }
+        }
+    </script>
+</body>
+</html>

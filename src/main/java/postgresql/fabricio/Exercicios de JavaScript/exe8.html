@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 8</title>
+</head>
+<body>
+    <p id="text">Este é um parágrafo de exemplo.</p>
+    <button onclick="transformText('uppercase')">Maiúsculas</button>
+    <button onclick="transformText('lowercase')">Minúsculas</button>
+
+    <script>
+        function transformText(caseType) {
+            var text = document.getElementById("text");
+            if (caseType === 'uppercase') {
+                text.style.textTransform = "uppercase";
+            } else if (caseType === 'lowercase') {
+                text.style.textTransform = "lowercase";
+            }
+        }
+    </script>
+</body>
+</html>
